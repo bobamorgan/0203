@@ -1,0 +1,19 @@
+.cell {
+    height: 67px;
+    width: 67px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: hsl(207, 19%, 61%);
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.cell:hover {
+    background: hsl(207, 22%, 69%);
+}
+.cell:active {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3) inset;
+    outline: none;
+}
